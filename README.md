@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+![Alt text](./src/assets/logo.png)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Project to track sewage overflows and map them. Users to be able to report incidents. History of locations to be stored.
 
-## Recommended IDE Setup
+- Vite
+- Vue v3
+- Tailwind v3
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Backend api built with strapi @ [PollutionWatch Backend](https://github.com/therealJonSnow/pollution-watch-backend).
