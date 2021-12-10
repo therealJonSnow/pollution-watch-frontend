@@ -42,7 +42,7 @@ export default createStore({
         });
     },
     setAlerts (state) {
-      axios.get('http://localhost:1337/api/alerts?sort=createdAt:desc', {
+      axios.get('http://localhost:1337/api/alerts?populate=*&sort=createdAt:desc', {
             headers: {
               Authorization:
                 `Bearer ${state.token}`,

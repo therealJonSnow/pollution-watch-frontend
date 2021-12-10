@@ -6,10 +6,13 @@
     <div class="pl-12 pr-6 py-12 w-1/2 self-stretch  ">
       <Card class="h-full flex flex-col rounded-sm p-6">
         <h3 class="text-4xl font-brand pb-3 mb-3 border-b-2 border-zinc-400 border-opacity-30">{{ location.attributes.name }}</h3>
-        <div class="flex-grow overflow-y-auto pr-4">
+        <div class="max-h-44 overflow-y-auto pr-4 mb-10">
           <Markdown :source="location.attributes.description" />
         </div>
-        <RecentsList :alerts="location.attributes.alerts.data"></RecentsList>
+        <div>
+          <div class="font-brand text-xl mb-2">Recent Alerts:</div>
+          <RecentsList :alerts="location.attributes.alerts.data"></RecentsList>
+        </div>
       </Card>
     </div>
     <div class="flex-grow self-stretch p-12">

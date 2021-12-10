@@ -4,6 +4,7 @@ import LandingPage from '/src/views/LandingPage.vue'
 import Profile from '/src/views/Profile.vue'
 import Locations from '/src/views/Locations.vue'
 import Location from '/src/views/Location.vue'
+import Alert from '/src/views/Alert.vue'
 
 // createWebHistory
 const routes = [
@@ -31,6 +32,11 @@ const routes = [
     path: '/locations/:id',
     name: 'Location',
     component: Location
+  },
+  {
+    path: '/alerts/:id',
+    name: 'Alert',
+    component: Alert
   },
 ]
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow-md bg-zinc-800 box-shadow">
+  <div class="shadow-zinc-900 shadow-lg bg-zinc-800">
     <slot/>
   </div>
 </template>
@@ -11,7 +11,4 @@ name: 'Card'
 </script>
 
 <style>
-.box-shadow {
-  box-shadow: #0e1218 0px 1px 16px;
-}
 </style>
